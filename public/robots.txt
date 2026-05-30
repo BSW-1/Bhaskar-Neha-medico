@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://medico.bhaskarsah.com.np/sitemap.xml
