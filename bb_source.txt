@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <script>
+    (function() {
+      try {
+        var localTheme = localStorage.getItem('theme');
+        var themeToSet = localTheme ? localTheme : 'light';
+        document.documentElement.setAttribute('data-theme', themeToSet);
+      } catch (e) {}
+    })();
+  </script>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/logo.png" />
+  <link rel="apple-touch-icon" href="/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+
+  <!-- Primary Meta Tags -->
+  <title>BlackBound | AI Agents, Dashboards & Web Apps | Kathmandu, Nepal</title>
+  <meta name="title" content="BlackBound | AI Agents, Dashboards & Web Apps | Kathmandu, Nepal" />
+  <meta name="description"
+    content="BlackBound builds custom AI agents, dashboards, and web applications for businesses worldwide. Based in Kathmandu, Nepal. Start your 7-day free trial today." />
+  <meta name="keywords"
+    content="AI automation, AI agents, custom dashboards, web apps, mobile apps, WhatsApp automation, customer support AI, Nepal tech, BlackBound, business automation, SaaS, enterprise software" />
+  <meta name="author" content="BlackBound Pvt. Ltd." />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <link rel="canonical" href="https://blackbound.org" />
+  <meta name="theme-color" content="#0a0a0f" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://blackbound.org/" />
+  <meta property="og:title" content="BlackBound | Custom AI Agents & Enterprise Software" />
+  <meta property="og:description"
+    content="Custom AI agents, dashboards & web apps for businesses worldwide. Based in Kathmandu, Nepal. 7-day free trial available." />
+  <meta property="og:image" content="https://blackbound.org/logo.png" />
+  <meta property="og:site_name" content="BlackBound" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://blackbound.org/" />
+  <meta property="twitter:title" content="BlackBound | AI Agents, Dashboards & Web Apps" />
+  <meta property="twitter:description"
+    content="Custom AI agents and web applications for businesses worldwide. Try free for 7 days." />
+  <meta property="twitter:image" content="https://blackbound.org/logo.png" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "BlackBound",
+      "alternateName": "BlackBound",
+      "url": "https://blackbound.org",
+      "logo": "https://blackbound.org/logo.png",
+      "description": "AI automation agency based in Kathmandu, Nepal. We build custom AI agents, dashboards, and web applications for businesses worldwide.",
+      "foundingDate": "2026",
+      "founders": [
+        { "@type": "Person", "name": "Bhaskar", "jobTitle": "Founder & CEO" },
+        { "@type": "Person", "name": "SukraRaj", "jobTitle": "Co-Founder & Sales Lead" },
+        { "@type": "Person", "name": "Raj", "jobTitle": "Co-Founder & Lead Designer" },
+        { "@type": "Person", "name": "Kapil", "jobTitle": "Co-Founder & Social Media Manager" }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kathmandu",
+        "addressCountry": "NP"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+977-9749959897",
+          "contactType": "sales",
+          "availableLanguage": ["English", "Nepali"]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+977-9766467775",
+          "contactType": "technical support",
+          "availableLanguage": ["English", "Nepali"]
+        }
+      ],
+      "sameAs": [],
+      "knowsAbout": ["AI Agents", "Custom Dashboards", "Web Applications", "Mobile Apps", "WhatsApp Automation", "Customer Support AI"]
+    }
+    </script>
+
+  <!-- Service Schema -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "BlackBound",
+      "serviceType": ["AI Agent Development", "Custom Dashboard Development", "Web Application Development", "Mobile App Development", "WhatsApp Automation", "Customer Support Systems"],
+      "areaServed": "Worldwide",
+      "priceRange": "$$",
+      "provider": {
+        "@type": "Organization",
+        "name": "BlackBound"
+      }
+    }
+    </script>
+
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does BlackBound do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "BlackBound builds custom AI agents, dashboards, and web applications for businesses. We handle everything from customer support automation to real-time analytics dashboards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does BlackBound offer a free trial?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We build a working prototype first, and you test it free for 7 days. If it doesn't meet your expectations, you pay nothing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is BlackBound located?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "BlackBound is headquartered in Kathmandu, Nepal, and works with clients across 4+ countries worldwide."
+          }
+        }
+      ]
+    }
+    </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Preloader -->
+  <style>
+    #preloader {
+      position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+      background: #0B0C10;
+      z-index: 99999;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.8s;
+    }
+    #preloader.fade-out {
+      opacity: 0; visibility: hidden; pointer-events: none;
+    }
+    /* Advanced Geometric Loader */
+    .tech-loader {
+      width: 100px; height: 100px;
+      position: relative;
+      perspective: 800px;
+      margin-bottom: 2rem;
+    }
+    .tech-box {
+      width: 100%; height: 100%;
+      position: absolute;
+      transform-style: preserve-3d;
+      animation: spinBox 3s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+    }
+    .tech-face {
+      position: absolute;
+      width: 100%; height: 100%;
+      border: 2px solid rgba(168, 134, 84, 0.5);
+      background: rgba(168, 134, 84, 0.1);
+      box-shadow: inset 0 0 15px rgba(168, 134, 84, 0.2);
+    }
+    .tech-face:nth-child(1) { transform: rotateY(0deg) translateZ(50px); }
+    .tech-face:nth-child(2) { transform: rotateY(90deg) translateZ(50px); }
+    .tech-face:nth-child(3) { transform: rotateY(180deg) translateZ(50px); }
+    .tech-face:nth-child(4) { transform: rotateY(-90deg) translateZ(50px); }
+    .tech-face:nth-child(5) { transform: rotateX(90deg) translateZ(50px); }
+    .tech-face:nth-child(6) { transform: rotateX(-90deg) translateZ(50px); }
+    
+    @keyframes spinBox {
+      0% { transform: rotateX(0deg) rotateY(0deg); }
+      33% { transform: rotateX(180deg) rotateY(0deg); }
+      66% { transform: rotateX(180deg) rotateY(180deg); }
+      100% { transform: rotateX(360deg) rotateY(360deg); }
+    }
+    .loader-text {
+      color: #A88654;
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      animation: pulseText 1.5s ease-in-out infinite;
+    }
+    @keyframes pulseText { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; text-shadow: 0 0 10px rgba(168, 134, 84, 0.5); } }
+    
+    /* Aggressive Google Translate Hiding */
+    #google_translate_element { opacity: 0 !important; position: absolute !important; top: -9999px !important; pointer-events: none !important; z-index: -1 !important; height: 0 !important; overflow: hidden !important; }
+    .goog-te-banner-frame { display: none !important; visibility: hidden !important; height: 0 !important; }
+    iframe.skiptranslate { display: none !important; visibility: hidden !important; height: 0 !important; }
+    body { top: 0px !important; margin-top: 0px !important; padding-bottom: 0px !important; position: static !important; }
+    #goog-gt-tt { display: none !important; visibility: hidden !important; }
+  </style>
+  <script type="module" crossorigin src="/assets/index-BwYRdMCi.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DkIiDyYs.css">
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="tech-loader">
+      <div class="tech-box">
+        <div class="tech-face"></div><div class="tech-face"></div>
+        <div class="tech-face"></div><div class="tech-face"></div>
+        <div class="tech-face"></div><div class="tech-face"></div>
+      </div>
+    </div>
+    <div class="loader-text">BlackBound</div>
+  </div>
+
+  <div id="google_translate_element"></div>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        autoDisplay: false
+      }, 'google_translate_element');
+
+      // Restore saved language on load
+      setTimeout(function() {
+        var saved = localStorage.getItem('selectedLang');
+        if (saved && saved !== 'en') {
+          window.changeLanguage(saved);
+        }
+      }, 1500);
+    }
+
+    window.changeLanguage = function(langCode) {
+      // Save to localStorage for persistence across refreshes
+      localStorage.setItem('selectedLang', langCode);
+
+      if (langCode === 'en') {
+        // Reset to English: clear cookies and reload
+        document.cookie = 'googtrans=; path=/; max-age=0';
+        document.cookie = 'googtrans=; path=/; domain=' + window.location.hostname + '; max-age=0';
+        localStorage.removeItem('selectedLang');
+        var iframe = document.querySelector('.goog-te-banner-frame');
+        if (iframe) {
+          var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+          var restoreBtn = innerDoc.querySelector('.goog-close-link');
+          if (restoreBtn) { restoreBtn.click(); return; }
+        }
+        window.location.reload();
+        return;
+      }
+
+      // Set cookies for Google Translate
+      document.cookie = 'googtrans=/en/' + langCode + '; path=/; max-age=31536000';
+      document.cookie = 'googtrans=/en/' + langCode + '; path=/; domain=' + window.location.hostname + '; max-age=31536000';
+
+      var maxRetries = 20;
+      var retries = 0;
+      
+      function attemptTranslate() {
+        var gtCombo = document.querySelector('.goog-te-combo');
+        if (gtCombo && gtCombo.options.length > 0) {
+          gtCombo.value = langCode;
+          gtCombo.dispatchEvent(new Event('change'));
+          // Update footer select to stay in sync
+          var footerSelect = document.querySelector('.footer-lang-select');
+          if (footerSelect) footerSelect.value = langCode;
+        } else {
+          retries++;
+          if (retries < maxRetries) {
+            setTimeout(attemptTranslate, 500);
+          } else {
+            // Fallback: just reload with cookie set
+            window.location.reload();
+          }
+        }
+      }
+      
+      attemptTranslate();
+    };
+
+    setInterval(function() {
+      if (document.body.style.top !== '0px' || document.body.style.position !== 'static') {
+        document.body.style.top = '0px';
+        document.body.style.position = 'static';
+      }
+      var skiptranslate = document.querySelectorAll('.skiptranslate, .VIpgJd-ZVi9od-aZ2wEe-wOHMyf');
+      skiptranslate.forEach(function(el) {
+        if (!el.classList.contains('goog-te-combo')) {
+          el.style.opacity = '0';
+          el.style.position = 'absolute';
+          el.style.pointerEvents = 'none';
+          el.style.zIndex = '-9999';
+          el.style.width = '1px';
+          el.style.height = '1px';
+          el.style.overflow = 'hidden';
+        }
+      });
+    }, 100);
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  <div id="root"></div>
+  <script>
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        const preloader = document.getElementById('preloader');
+        if (preloader) {
+          preloader.classList.add('fade-out');
+          setTimeout(() => preloader.remove(), 800);
+        }
+      }, 800);
+    });
+  </script>
+</body>
+
+</html>
